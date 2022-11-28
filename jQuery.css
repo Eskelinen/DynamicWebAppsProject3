@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+table {
+    margin: auto;
+    padding-top: 10px;
+}
+input {
+    border-color: black;
+}
+#add {
+    border-color: black;
+}
+tr {
+    border: 1px;
+    border-color: black;
+}

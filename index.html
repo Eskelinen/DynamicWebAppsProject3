@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Jquery script hosted by Google.-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="jQuery.js"></script>
+    <!-- Pure CSS  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+        integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link rel="stylesheet" href="jQuery.css">
+    <title>jQuery To-Do</title>
+</head>
+
+<body>
+    <h1>To-do list jQuery edition</h1>
+    <!--Textfield and button to send user input-->
+    <input type="text" id="textfield">
+    <button id="add" class="button-small pure-button">Add</button> <br>
+    <span id="error"></span>
+    <!--Defining the table-->
+    <table id="table">
+        <tr>
+        </tr>
+    </table>
+    <!--This displays how many things there are to do on the list.
+    The number updates after any function is run.-->
+    <p id="howMany"></p>
+    <p id="test"></p>
+</body>
+
+</html>
